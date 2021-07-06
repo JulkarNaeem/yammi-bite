@@ -17,7 +17,7 @@ p{
 h4{
     font-size: 40px;
     font-weight: 600;
-    margin-top: -70px;
+    margin-top: -50px;
 }
 h5{
     font-size: 35px;
@@ -50,8 +50,6 @@ span{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background: url(img/top-background.png) no-repeat right bottom;   margin-bottom: 50px;
-
 }
 .about-item{
     max-width: 60%;
@@ -68,12 +66,31 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: url(img/item-backgroumd.png) no-repeat bottom center;
 }
 .food-item{
     background-color: white;
     text-align: center;
     padding: 25px;
-    margin: 20px;
+    margin: 40px;
     border-radius: 50px;
     box-shadow: 5px 5px 20px black;
+}
+.contact{
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    background: url(img/contact-back.png) no-repeat left center;
+}
+.contact-img{
+    height: 600px;
+    margin-left: 180px;
+}
+.contact-text{
+    align-content: center;
+    margin-left: 500px;
+}
+.contact-text p{
+    margin-top: -35px;
 }
