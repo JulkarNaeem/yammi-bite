@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
+  background: honeydew;
   font-family: "Roboto", sans-serif;
-  background-color: azure;
   width: auto;
 }
 h1 {
