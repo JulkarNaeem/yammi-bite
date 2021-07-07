@@ -78,27 +78,6 @@ span {
   border-radius: 50px;
   box-shadow: 5px 5px 20px black;
 }
-.contact {
-  height: 800px;
-  background: url(img/contact-back.png) no-repeat left center;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-}
-.contact-img {
-  height: 600px;
-  max-width: 45%;
-  margin-left: 180px;
-}
-.contact-text {
-  align-items: center;
-  max-width: 55%;
-  min-width: 30%;
-  margin-left: 500px;
-  flex-grow: 2;
-  flex-shrink: 2;
-}
 .contact-text p {
   margin-top: -35px;
 }
@@ -108,9 +87,17 @@ span {
 .item-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
+.items {
+  box-shadow: 5px 5px 20px black;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: #bc1823;
+}
+
 .item-name ul li {
   font-size: 30px;
   color: white;
@@ -123,13 +110,22 @@ span {
 .item-name {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
-.items {
-  box-shadow: 5px 5px 20px black;
-  margin: 30px;
-  padding: 20px;
-  border-radius: 40px;
-  background-color: #bc1823;
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-img {
+  padding: 100px 180px;
+  background: url(img/contact-back.png) no-repeat;
+  height: 800px;
+}
+.contact-img img {
+  width: 600px;
+}
+.contact-text {
+  padding-left: 200px;
 }
 .social-media {
   display: flex;
