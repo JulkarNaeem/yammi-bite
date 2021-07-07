@@ -88,9 +88,62 @@ span{
     margin-left: 180px;
 }
 .contact-text{
-    align-content: center;
+    align-items: center;
     margin-left: 500px;
 }
 .contact-text p{
     margin-top: -35px;
 }
+.hot-item{
+    text-align: center;
+}
+.item-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item-name ul li{
+    font-size: 30px;
+        color: white;
+    padding: 10px;
+}
+.item-name h5{
+    text-align: center;
+    color: white;
+}
+.item-name{
+    display: flex;
+    flex-wrap: wrap;
+}
+.items{
+    box-shadow: 5px 5px 20px black;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: #bc1823;
+}
+.social-media{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: center;
+    margin: 100px;
+    border-radius: 80px;
+    box-shadow: 5px 5px 15px black;
+}
+.pages h5{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: -25px;
+    margin-top: 30px;
+}
+footer{
+    color:lemonchiffon;
+    text-align: center;
+    background-color:darkslategray;
+    margin: 0px;
+    padding: 20px;
+}
+
